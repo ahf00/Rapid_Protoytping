@@ -1,6 +1,7 @@
 
 body{
     grid-template-rows: 30% 70%;
+    background: linear-gradient(45deg,#CCFFFF,#FFFFCC)
 }
 
 h2 {
@@ -8,10 +9,6 @@ h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
   line-height: 1.2;
-}
-
-header{
-    background: linear-gradient(45deg,#CCFFFF,#FFFFCC)
 }
 
 #groups{
@@ -22,4 +19,21 @@ header{
 
 #grpD grpA {
     border: thick double #32a1ce;
+}
+
+.navbar-nav {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar-toggler {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 25px;
+    width: auto;
+    z-index: 2;
 }
