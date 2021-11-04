@@ -5,11 +5,6 @@ header {
 body {
     background: linear-gradient(45deg,#ccffff,#ffffcc);
 }
-
-[alt="main-image"]{
-    width: 100%;
-}
-
 .navbar-nav {
     position: fixed;
     top: 30px;
