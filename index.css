@@ -1,0 +1,8 @@
+header {
+    background: linear-gradient(45deg,#ccffff,#ffffcc);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+[alt="main-image"]{
+    width: 100%;
+}
